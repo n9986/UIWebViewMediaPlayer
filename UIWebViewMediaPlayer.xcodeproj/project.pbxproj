@@ -10,27 +10,29 @@
 		335735D415FE31E90090E9C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335735D315FE31E90090E9C5 /* UIKit.framework */; };
 		335735D615FE31E90090E9C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335735D515FE31E90090E9C5 /* Foundation.framework */; };
 		335735D815FE31E90090E9C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335735D715FE31E90090E9C5 /* CoreGraphics.framework */; };
-		335735DE15FE31E90090E9C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 335735DC15FE31E90090E9C5 /* InfoPlist.strings */; };
-		335735E015FE31E90090E9C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 335735DF15FE31E90090E9C5 /* main.m */; };
-		335735E415FE31E90090E9C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 335735E315FE31E90090E9C5 /* AppDelegate.m */; };
-		335735E715FE31E90090E9C5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335735E515FE31E90090E9C5 /* MainStoryboard.storyboard */; };
-		335735EA15FE31E90090E9C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335735E915FE31E90090E9C5 /* ViewController.m */; };
+		335735F115FE36770090E9C5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 335735F015FE36770090E9C5 /* MediaPlayer.framework */; };
+		33A5A2E9160754B400825FBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A5A2E4160754B400825FBA /* AppDelegate.m */; };
+		33A5A2EA160754B400825FBA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A5A2E5160754B400825FBA /* MainStoryboard.storyboard */; };
+		33A5A2EB160754B400825FBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A5A2E8160754B400825FBA /* ViewController.m */; };
+		33A5A2F1160754CB00825FBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33A5A2EC160754CB00825FBA /* InfoPlist.strings */; };
+		33A5A2F2160754CB00825FBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A5A2EE160754CB00825FBA /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		335735CF15FE31E90090E9C5 /* UIWebViewMediaHandling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewMediaHandling.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		335735CF15FE31E90090E9C5 /* UIWebViewMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIWebViewMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335735D315FE31E90090E9C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		335735D515FE31E90090E9C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		335735D715FE31E90090E9C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		335735DB15FE31E90090E9C5 /* UIWebViewMediaHandling-Info.plist */ = {isa = PBXFileReference; path = "UIWebViewMediaHandling-Info.plist"; sourceTree = "<group>"; };
-		335735DD15FE31E90090E9C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		335735DF15FE31E90090E9C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		335735E115FE31E90090E9C5 /* UIWebViewMediaHandling-Prefix.pch */ = {isa = PBXFileReference; path = "UIWebViewMediaHandling-Prefix.pch"; sourceTree = "<group>"; };
-		335735E215FE31E90090E9C5 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		335735E315FE31E90090E9C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		335735E615FE31E90090E9C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		335735E815FE31E90090E9C5 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		335735E915FE31E90090E9C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		335735F015FE36770090E9C5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		33A5A2E3160754B400825FBA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = UIWebViewMediaPlayer/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		33A5A2E4160754B400825FBA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = UIWebViewMediaPlayer/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		33A5A2E6160754B400825FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = UIWebViewMediaPlayer/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		33A5A2E7160754B400825FBA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = UIWebViewMediaPlayer/ViewController.h; sourceTree = SOURCE_ROOT; };
+		33A5A2E8160754B400825FBA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = UIWebViewMediaPlayer/ViewController.m; sourceTree = SOURCE_ROOT; };
+		33A5A2ED160754CB00825FBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = UIWebViewMediaPlayer/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		33A5A2EE160754CB00825FBA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = UIWebViewMediaPlayer/main.m; sourceTree = SOURCE_ROOT; };
+		33A5A2EF160754CB00825FBA /* UIWebViewMediaPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "UIWebViewMediaPlayer-Info.plist"; path = "UIWebViewMediaPlayer/UIWebViewMediaPlayer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		33A5A2F0160754CB00825FBA /* UIWebViewMediaPlayer-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIWebViewMediaPlayer-Prefix.pch"; path = "UIWebViewMediaPlayer/UIWebViewMediaPlayer-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335735F115FE36770090E9C5 /* MediaPlayer.framework in Frameworks */,
 				335735D415FE31E90090E9C5 /* UIKit.framework in Frameworks */,
 				335735D615FE31E90090E9C5 /* Foundation.framework in Frameworks */,
 				335735D815FE31E90090E9C5 /* CoreGraphics.framework in Frameworks */,
@@ -50,7 +53,7 @@
 		335735C415FE31E80090E9C5 = {
 			isa = PBXGroup;
 			children = (
-				335735D915FE31E90090E9C5 /* UIWebViewMediaHandling */,
+				335735D915FE31E90090E9C5 /* UIWebViewMediaPlayer */,
 				335735D215FE31E90090E9C5 /* Frameworks */,
 				335735D015FE31E90090E9C5 /* Products */,
 			);
@@ -59,7 +62,7 @@
 		335735D015FE31E90090E9C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				335735CF15FE31E90090E9C5 /* UIWebViewMediaHandling.app */,
+				335735CF15FE31E90090E9C5 /* UIWebViewMediaPlayer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +70,7 @@
 		335735D215FE31E90090E9C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				335735F015FE36770090E9C5 /* MediaPlayer.framework */,
 				335735D315FE31E90090E9C5 /* UIKit.framework */,
 				335735D515FE31E90090E9C5 /* Foundation.framework */,
 				335735D715FE31E90090E9C5 /* CoreGraphics.framework */,
@@ -74,26 +78,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		335735D915FE31E90090E9C5 /* UIWebViewMediaHandling */ = {
+		335735D915FE31E90090E9C5 /* UIWebViewMediaPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				335735E215FE31E90090E9C5 /* AppDelegate.h */,
-				335735E315FE31E90090E9C5 /* AppDelegate.m */,
-				335735E515FE31E90090E9C5 /* MainStoryboard.storyboard */,
-				335735E815FE31E90090E9C5 /* ViewController.h */,
-				335735E915FE31E90090E9C5 /* ViewController.m */,
+				33A5A2E3160754B400825FBA /* AppDelegate.h */,
+				33A5A2E4160754B400825FBA /* AppDelegate.m */,
+				33A5A2E5160754B400825FBA /* MainStoryboard.storyboard */,
+				33A5A2E7160754B400825FBA /* ViewController.h */,
+				33A5A2E8160754B400825FBA /* ViewController.m */,
 				335735DA15FE31E90090E9C5 /* Supporting Files */,
 			);
+			name = UIWebViewMediaPlayer;
 			path = UIWebViewMediaHandling;
 			sourceTree = "<group>";
 		};
 		335735DA15FE31E90090E9C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				335735DB15FE31E90090E9C5 /* UIWebViewMediaHandling-Info.plist */,
-				335735DC15FE31E90090E9C5 /* InfoPlist.strings */,
-				335735DF15FE31E90090E9C5 /* main.m */,
-				335735E115FE31E90090E9C5 /* UIWebViewMediaHandling-Prefix.pch */,
+				33A5A2EC160754CB00825FBA /* InfoPlist.strings */,
+				33A5A2EE160754CB00825FBA /* main.m */,
+				33A5A2EF160754CB00825FBA /* UIWebViewMediaPlayer-Info.plist */,
+				33A5A2F0160754CB00825FBA /* UIWebViewMediaPlayer-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -101,9 +106,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		335735CE15FE31E90090E9C5 /* UIWebViewMediaHandling */ = {
+		335735CE15FE31E90090E9C5 /* UIWebViewMediaPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 335735ED15FE31E90090E9C5 /* Build configuration list for PBXNativeTarget "UIWebViewMediaHandling" */;
+			buildConfigurationList = 335735ED15FE31E90090E9C5 /* Build configuration list for PBXNativeTarget "UIWebViewMediaPlayer" */;
 			buildPhases = (
 				335735CB15FE31E90090E9C5 /* Sources */,
 				335735CC15FE31E90090E9C5 /* Frameworks */,
@@ -113,9 +118,9 @@
 			);
 			dependencies = (
 			);
-			name = UIWebViewMediaHandling;
+			name = UIWebViewMediaPlayer;
 			productName = UIWebViewMediaHandling;
-			productReference = 335735CF15FE31E90090E9C5 /* UIWebViewMediaHandling.app */;
+			productReference = 335735CF15FE31E90090E9C5 /* UIWebViewMediaPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +131,7 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 			};
-			buildConfigurationList = 335735C915FE31E80090E9C5 /* Build configuration list for PBXProject "UIWebViewMediaHandling" */;
+			buildConfigurationList = 335735C915FE31E80090E9C5 /* Build configuration list for PBXProject "UIWebViewMediaPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -138,7 +143,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				335735CE15FE31E90090E9C5 /* UIWebViewMediaHandling */,
+				335735CE15FE31E90090E9C5 /* UIWebViewMediaPlayer */,
 			);
 		};
 /* End PBXProject section */
@@ -148,8 +153,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335735DE15FE31E90090E9C5 /* InfoPlist.strings in Resources */,
-				335735E715FE31E90090E9C5 /* MainStoryboard.storyboard in Resources */,
+				33A5A2EA160754B400825FBA /* MainStoryboard.storyboard in Resources */,
+				33A5A2F1160754CB00825FBA /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,29 +165,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335735E015FE31E90090E9C5 /* main.m in Sources */,
-				335735E415FE31E90090E9C5 /* AppDelegate.m in Sources */,
-				335735EA15FE31E90090E9C5 /* ViewController.m in Sources */,
+				33A5A2E9160754B400825FBA /* AppDelegate.m in Sources */,
+				33A5A2EB160754B400825FBA /* ViewController.m in Sources */,
+				33A5A2F2160754CB00825FBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		335735DC15FE31E90090E9C5 /* InfoPlist.strings */ = {
+		33A5A2E5160754B400825FBA /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				335735DD15FE31E90090E9C5 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		335735E515FE31E90090E9C5 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				335735E615FE31E90090E9C5 /* en */,
+				33A5A2E6160754B400825FBA /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		33A5A2EC160754CB00825FBA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A5A2ED160754CB00825FBA /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -237,9 +242,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIWebViewMediaHandling/UIWebViewMediaHandling-Prefix.pch";
-				INFOPLIST_FILE = "UIWebViewMediaHandling/UIWebViewMediaHandling-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UIWebViewMediaPlayer/UIWebViewMediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewMediaPlayer/UIWebViewMediaPlayer-Info.plist";
+				PRODUCT_NAME = UIWebViewMediaPlayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -248,9 +253,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIWebViewMediaHandling/UIWebViewMediaHandling-Prefix.pch";
-				INFOPLIST_FILE = "UIWebViewMediaHandling/UIWebViewMediaHandling-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UIWebViewMediaPlayer/UIWebViewMediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "UIWebViewMediaPlayer/UIWebViewMediaPlayer-Info.plist";
+				PRODUCT_NAME = UIWebViewMediaPlayer;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -258,7 +263,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		335735C915FE31E80090E9C5 /* Build configuration list for PBXProject "UIWebViewMediaHandling" */ = {
+		335735C915FE31E80090E9C5 /* Build configuration list for PBXProject "UIWebViewMediaPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				335735EB15FE31E90090E9C5 /* Debug */,
@@ -267,13 +272,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		335735ED15FE31E90090E9C5 /* Build configuration list for PBXNativeTarget "UIWebViewMediaHandling" */ = {
+		335735ED15FE31E90090E9C5 /* Build configuration list for PBXNativeTarget "UIWebViewMediaPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				335735EE15FE31E90090E9C5 /* Debug */,
 				335735EF15FE31E90090E9C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

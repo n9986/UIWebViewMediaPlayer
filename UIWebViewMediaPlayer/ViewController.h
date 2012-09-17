@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import <MediaPlayer/MediaPlayer.h>
+
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIWebView *myWebView;
 @end
